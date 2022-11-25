@@ -1,1 +1,21 @@
 import styled from '@emotion/styled';
+
+export const StyledGalleryItem = styled.li`
+  flex-basis: calc((100% - 3 * 20px) / 4);
+  border-radius: 2px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  cursor: zoom-in;
+  overflow: hidden;
+
+  &:hover img {
+    transform: scale(1.02);
+  }
+`;
+
+export const StyledGalleryImage = styled.img`
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  transition: transform 400ms ease;
+`;
