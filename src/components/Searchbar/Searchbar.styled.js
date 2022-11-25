@@ -1,13 +1,12 @@
 import styled from '@emotion/styled';
 
-export const StyledSearchbar = styled.header`
+export const StyledSearchbar = styled.header``;
+
+export const StyledForm = styled.form`
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-`;
-
-export const StyledForm = styled.form`
   display: flex;
   justify-content: center;
   align-items: center;
